@@ -1,17 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int dlugosc(char *napis[])
-{
-    int i = 0;
-    while(napis[i] != 0)
-    {
-        i++;
-    }
-    return i;
-}
+
 int main(int argc, char *argv[])
 {
-    char napis[255];
-    printf("%c (%d)", argv[1], dlugosc(argv[1]));
-    return 0;
+
+    FILE *fin;
+    int ia;
+    int ja;
+
+    fin = fopen("A.txt", "r");
+    
+    int i[];
+    for(int x = 0; x < ia; x++)
+    {
+        fscanf(fin, "%f", &i)
+    }
+    
 }
